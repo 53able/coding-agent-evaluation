@@ -452,9 +452,11 @@ export const tablesSchema: TablesSchema = {
             max-width: 1400px;
             margin: 0 auto;
             padding: 20px;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', 'Yu Gothic UI', sans-serif;
             background: #f8f9fa;
             min-height: 100vh;
+            font-size: 16px;
+            line-height: 1.7;
           }
 
           .verification-header {
@@ -468,16 +470,22 @@ export const tablesSchema: TablesSchema = {
           }
 
           .verification-header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 16px;
+            font-size: 2.2rem;
+            margin-bottom: 20px;
             font-weight: 700;
+            line-height: 1.3;
+            letter-spacing: -0.02em;
           }
 
           .subtitle {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            font-weight: 300;
+            font-size: 1.1rem;
+            opacity: 0.95;
+            font-weight: 400;
             margin-bottom: 32px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
           }
 
           .tab-navigation {
@@ -545,29 +553,32 @@ export const tablesSchema: TablesSchema = {
           }
 
           .overview-card h3 {
-            color: #2c3e50;
-            margin-bottom: 16px;
-            font-size: 1.2rem;
+            color: #1a202c;
+            margin-bottom: 18px;
+            font-size: 1.25rem;
             font-weight: 600;
+            line-height: 1.4;
           }
 
           .overview-card p {
-            line-height: 1.6;
-            color: #495057;
+            line-height: 1.8;
+            color: #2d3748;
             margin-bottom: 0;
+            font-size: 0.95rem;
           }
 
           .overview-card ul {
             margin: 0;
-            padding-left: 20px;
-            color: #495057;
+            padding-left: 24px;
+            color: #2d3748;
             text-align: left;
           }
 
           .overview-card li {
-            margin-bottom: 8px;
-            line-height: 1.5;
+            margin-bottom: 10px;
+            line-height: 1.7;
             text-align: left;
+            font-size: 0.95rem;
           }
 
           .case-comparison {
@@ -599,26 +610,30 @@ export const tablesSchema: TablesSchema = {
           }
 
           .case-header h2 {
-            margin: 0 0 16px 0;
-            font-size: 1.5rem;
+            margin: 0 0 20px 0;
+            font-size: 1.4rem;
+            line-height: 1.4;
+            font-weight: 600;
           }
 
           .case-details h3 {
-            font-size: 1rem;
-            margin: 16px 0 8px 0;
+            font-size: 1.05rem;
+            margin: 20px 0 12px 0;
             font-weight: 600;
+            line-height: 1.4;
           }
 
           .case-details ul {
             margin: 0;
-            padding-left: 20px;
+            padding-left: 24px;
             text-align: left;
           }
 
           .case-details li {
-            margin-bottom: 4px;
-            font-size: 0.9rem;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
             text-align: left;
+            line-height: 1.6;
           }
 
           .metrics-comparison {
@@ -646,9 +661,11 @@ export const tablesSchema: TablesSchema = {
 
           .metrics-table th,
           .metrics-table td {
-            padding: 8px 12px;
+            padding: 12px 16px;
             text-align: left;
             border-bottom: 1px solid #dee2e6;
+            font-size: 0.95rem;
+            line-height: 1.6;
           }
 
           .metrics-table th {
@@ -673,21 +690,25 @@ export const tablesSchema: TablesSchema = {
           }
 
           .metrics-note p {
-            margin-bottom: 12px;
-            color: #495057;
+            margin-bottom: 16px;
+            color: #2d3748;
             text-align: left;
+            font-size: 0.95rem;
+            line-height: 1.7;
           }
 
           .metrics-note ul {
             margin: 0;
-            padding-left: 20px;
-            color: #495057;
+            padding-left: 24px;
+            color: #2d3748;
             text-align: left;
           }
 
           .metrics-note li {
-            margin-bottom: 6px;
+            margin-bottom: 8px;
             text-align: left;
+            font-size: 0.95rem;
+            line-height: 1.7;
           }
 
           .analysis-section {
@@ -709,39 +730,55 @@ export const tablesSchema: TablesSchema = {
           }
 
           .analysis-item h3 {
-            color: #2c3e50;
-            margin-bottom: 16px;
-            font-size: 1.2rem;
+            color: #1a202c;
+            margin-bottom: 20px;
+            font-size: 1.25rem;
+            line-height: 1.4;
+            font-weight: 600;
           }
 
           .analysis-item p {
-            line-height: 1.6;
-            color: #495057;
-            margin-bottom: 16px;
+            line-height: 1.8;
+            color: #2d3748;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
           }
 
           .analysis-item ul {
             margin: 0;
-            padding-left: 20px;
-            color: #495057;
+            padding-left: 24px;
+            color: #2d3748;
             text-align: left;
           }
 
           .analysis-item li {
-            margin-bottom: 8px;
-            line-height: 1.5;
+            margin-bottom: 10px;
+            line-height: 1.7;
             text-align: left;
+            font-size: 0.95rem;
           }
 
           .code-example {
             background: #2d3748;
             color: #e2e8f0;
-            padding: 16px;
-            border-radius: 6px;
-            font-family: 'Monaco', 'Menlo', monospace;
-            font-size: 0.85rem;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+            font-size: 0.9rem;
             overflow-x: auto;
-            margin-top: 16px;
+            margin: 20px 0;
+            text-align: left;
+            line-height: 1.5;
+          }
+
+          .code-example pre {
+            margin: 0;
+            padding: 0;
+            white-space: pre;
+            text-align: left;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
           }
 
           .principles-grid {
@@ -822,18 +859,23 @@ export const tablesSchema: TablesSchema = {
           }
 
           .conclusion-content h2 {
-            color: #2c3e50;
-            margin-bottom: 24px;
-            font-size: 2rem;
+            color: #1a202c;
+            margin-bottom: 28px;
+            font-size: 1.8rem;
             text-align: center;
+            line-height: 1.3;
+            font-weight: 700;
           }
 
           .conclusion-content p {
-            font-size: 1.1rem;
-            line-height: 1.7;
-            color: #495057;
-            margin-bottom: 32px;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #2d3748;
+            margin-bottom: 36px;
             text-align: center;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
           }
 
           .key-insights {
@@ -845,25 +887,29 @@ export const tablesSchema: TablesSchema = {
           }
 
           .key-insights h3 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-            font-size: 1.3rem;
+            color: #1a202c;
+            margin-bottom: 24px;
+            font-size: 1.25rem;
+            line-height: 1.4;
+            font-weight: 600;
           }
 
           .key-insights ol {
-            padding-left: 20px;
+            padding-left: 24px;
             text-align: left;
           }
 
           .key-insights li {
-            margin-bottom: 16px;
-            line-height: 1.6;
-            color: #495057;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            color: #2d3748;
             text-align: left;
+            font-size: 0.95rem;
           }
 
           .key-insights strong {
-            color: #2c3e50;
+            color: #1a202c;
+            font-weight: 600;
           }
 
           .future-outlook {
@@ -931,12 +977,23 @@ export const tablesSchema: TablesSchema = {
           .quote {
             background: #2d3748;
             color: #e2e8f0;
-            padding: 16px;
-            border-radius: 6px;
-            font-family: 'Monaco', 'Menlo', monospace;
-            font-size: 0.85rem;
+            padding: 20px;
+            border-radius: 8px;
+            font-style: italic;
+            font-size: 1rem;
             overflow-x: auto;
-            margin-top: 16px;
+            margin: 20px 0;
+            text-align: center;
+            line-height: 1.6;
+          }
+
+          .quote blockquote {
+            margin: 0;
+            padding: 0;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            text-align: center;
           }
 
           .recommendations {
@@ -1013,7 +1070,13 @@ export const tablesSchema: TablesSchema = {
             }
             
             .verification-header h1 {
-              font-size: 2rem;
+              font-size: 1.8rem;
+              line-height: 1.3;
+            }
+            
+            .subtitle {
+              font-size: 1rem;
+              line-height: 1.6;
             }
             
             .tab-navigation {
@@ -1021,8 +1084,9 @@ export const tablesSchema: TablesSchema = {
             }
             
             .tab-button {
-              padding: 8px 16px;
-              font-size: 0.8rem;
+              padding: 10px 18px;
+              font-size: 0.85rem;
+              line-height: 1.4;
             }
           }
 
