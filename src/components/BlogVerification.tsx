@@ -872,10 +872,8 @@ export const tablesSchema: TablesSchema = {
             line-height: 1.8;
             color: #2d3748;
             margin-bottom: 36px;
-            text-align: center;
+            text-align: left;
             max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
           }
 
           .key-insights {
@@ -920,10 +918,12 @@ export const tablesSchema: TablesSchema = {
           }
 
           .future-outlook h3 {
-            color: #2c3e50;
+            color: #1a202c;
             margin-bottom: 24px;
-            font-size: 1.3rem;
-            text-align: center;
+            font-size: 1.25rem;
+            text-align: left;
+            font-weight: 600;
+            line-height: 1.4;
           }
 
           .future-grid {
@@ -960,18 +960,20 @@ export const tablesSchema: TablesSchema = {
           }
 
           .final-message h3 {
-            color: #2c3e50;
+            color: #1a202c;
             margin-bottom: 24px;
-            font-size: 1.3rem;
-            text-align: center;
+            font-size: 1.25rem;
+            text-align: left;
+            font-weight: 600;
+            line-height: 1.4;
           }
 
           .final-message p {
             font-size: 1.1rem;
             line-height: 1.7;
-            color: #495057;
+            color: #2d3748;
             margin-bottom: 32px;
-            text-align: center;
+            text-align: left;
           }
 
           .quote {
@@ -1004,10 +1006,12 @@ export const tablesSchema: TablesSchema = {
           }
 
           .recommendations h3 {
-            color: #2c3e50;
+            color: #1a202c;
             margin-bottom: 24px;
-            font-size: 1.3rem;
-            text-align: center;
+            font-size: 1.25rem;
+            text-align: left;
+            font-weight: 600;
+            line-height: 1.4;
           }
 
           .recommendation-grid {
